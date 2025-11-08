@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<time.h>
-
-int main(){
+int main(){1
     printf("\t\t\tDigital Clock\n");
 
     printf("Chose the format of time format:\n");

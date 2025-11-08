@@ -1,6 +1,4 @@
 #include<stdio.h>
-#include<time.h>
-
 int main(){
     printf("\t\t\tDigital Clock\n");
 
@@ -13,10 +11,7 @@ int main(){
   switch(choice){
     case 1:
    
-       time_t currentTime;
-    time(&currentTime); // Get the current time
-    printf("Current time (seconds since epoch): %ld\n", currentTime);
-    
+    char = date()
 
     break;
     case 2:

@@ -1,6 +1,4 @@
 #include<stdio.h>
-#include<time.h>
-
 int main(){
     printf("\t\t\tDigital Clock\n");
 
@@ -12,16 +10,8 @@ int main(){
     scanf("%d",&choice);
   switch(choice){
     case 1:
-   
-       time_t currentTime;
-    time(&currentTime); // Get the current time
-    printf("Current time (seconds since epoch): %ld\n", currentTime);
-    
-
-    break;
-    case 2:
-    printf("You have chosen 24 hour format\n");
-    break;
+    printf("You have chosen 12 hour format\n");
+    int hour=0,minute=0,second=0;
     
   }
         return 0;
